@@ -21,21 +21,21 @@ public class NinjaModel {
     @Column(name = "id_ninja")
     private Long id;
 
-    @Column(name = "nome_ninja")
+    @Column(name = "nome")
     private String nome;
 
-    @Column(unique = true, name = "email_ninja")
+    @Column(unique = true, name = "email")
     private String email;
 
     @Column(name="img_url")
     private String imgUrl;
 
-    @Column(name = "idade_ninja")
+    @Column(name = "idade")
     private int idade;
 
     // @ManyToOne indica que um ninja tem uma unica missao
     @ManyToOne
-    @JoinColumn(name = "missoes_id") // Foreing key - define a coluna que vai fazer o relacionamento
+    @JoinColumn(name = "missao_id") // Foreing key - define a coluna que vai fazer o relacionamento
     private MissoesModel missao;
 
 
