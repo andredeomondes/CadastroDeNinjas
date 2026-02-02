@@ -1,7 +1,9 @@
-package dev.java10x.CadastroDeNinjas;
+package dev.java10x.CadastroDeNinjas.Ninjas;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import dev.java10x.CadastroDeNinjas.Missoes.MissoesModel;
 import jakarta.persistence.*;
+
+import java.util.List;
 
 // JPA = Java Persistence API
 // Entity ele transforma uma classe em uma entidade do banco de dados
@@ -17,6 +19,11 @@ public class NinjaModel {
     private String email;
     private int idade;
 
+    // @ManyToOne indica que um ninja tem uma unica missao
+    @ManyToOne
+    @JoinColumn(name="missoes_id") // Foreing key - define a coluna que vai fazer o relacionamento
+    private MissoesModel missao;
+
     // NoArgs constructor: construtor vazio
     public NinjaModel() {
     }
@@ -27,6 +34,9 @@ public class NinjaModel {
         this.email = email;
         this.idade = idade;
     }
+
+
+
 
     public String getNome() {
         return nome;
