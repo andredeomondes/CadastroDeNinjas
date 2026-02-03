@@ -3,7 +3,7 @@ package dev.java10x.CadastroDeNinjas.Ninjas;
 import org.springframework.web.bind.annotation.*;
 
 @RestController // indica que esta classe é um controlador REST
-@RequestMapping // mapeia a raiz das requisições
+@RequestMapping("/ninjas") // mapeia a raiz das requisições
 public class NinjaController {
 
 
@@ -18,12 +18,6 @@ public class NinjaController {
     // Um endpoint é uma URL específica onde um serviço web pode ser acessado por um cliente
 
 
-    // Mensagem de boas-vindas
-    @GetMapping("/boasvindas") // mapeia requisições do tipo GET
-    public String boasVindas() {
-        return "Bem-vindo ao cadastro de ninjas!";
-    }
-
     // Adicionar  (CREATE)
     @PostMapping("/criar")
     public String criarNinja() {
@@ -31,13 +25,13 @@ public class NinjaController {
     }
 
     // Listar todos os NINJAS (READ)
-    @GetMapping("/todos")
+    @GetMapping("/listar")
     public String listarNinjas() {
         return "Lista de todos os ninjas.";
     }
 
     // Procurar NINJA por ID (CREATE)
-    @GetMapping("/todosID")
+    @GetMapping("/listarID")
 
     public String procurarNinjaPorID() {
         return "Ninja encontrado por ID.";
