@@ -26,6 +26,10 @@ public class NinjaController {
     // O que é um endpoint?
     // Um endpoint é uma URL específica onde um serviço web pode ser acessado por um cliente
 
+    @GetMapping("/boasvindas")
+    public String boasVindas() {
+        return "Bem-vindo ao sistema de cadastro de NINJAS!";
+    }
 
     // Adicionar  (CREATE)
     @PostMapping("/criar")
@@ -36,14 +40,15 @@ public class NinjaController {
     // Listar todos os NINJAS (READ)
     @GetMapping("/listar")
     public List<NinjaModel> listarNinjas() {
+
         return ninjaService.listarNinjas();
     }
     // Procurar NINJA por ID (CREATE)
-    @GetMapping("/listarID")
-
-    public String procurarNinjaPorID() {
-        return "Ninja encontrado por ID.";
+    @GetMapping("/listar/{id}")
+    public NinjaModel listarNinjasPorId(@PathVariable Long id) {
+        return ninjaService.listarNinjasPorId(id);
     }
+
 
     // Alterar os dados do NINJA (UPDATE)
     @PutMapping("/alterarID")
