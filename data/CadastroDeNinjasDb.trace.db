@@ -1,0 +1,308 @@
+2026-02-04 03:13:11.148308-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES 
+(1, 'Procurar Mascote Perdido', 'Rank-D'),
+(2, 'Escolta de Comboio', 'Rank-C'),
+(3, 'Investigação de Espionagem', 'Rank-B'),
+(4, 'Captura de Alvo Criminoso', 'Rank-A'),
+(5, 'Confronto com a Akatsuki', 'Rank-S') [42102-224]
+2026-02-04 03:13:17.300979-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES 
+(1, 'Procurar Mascote Perdido', 'Rank-D'),
+(2, 'Escolta de Comboio', 'Rank-C'),
+(3, 'Investigação de Espionagem', 'Rank-B'),
+(4, 'Captura de Alvo Criminoso', 'Rank-A'),
+(5, 'Confronto com a Akatsuki', 'Rank-S') [42102-224]
+2026-02-04 03:13:28.069192-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES 
+(1, 'Procurar Mascote Perdido', 'Rank-D'),
+(2, 'Escolta de Comboio', 'Rank-C'),
+(3, 'Investigação de Espionagem', 'Rank-B'),
+(4, 'Captura de Alvo Criminoso', 'Rank-A'),
+(5, 'Confronto com a Akatsuki', 'Rank-S') [42102-224]
+2026-02-04 03:13:29.331850-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES 
+(1, 'Procurar Mascote Perdido', 'Rank-D'),
+(2, 'Escolta de Comboio', 'Rank-C'),
+(3, 'Investigação de Espionagem', 'Rank-B'),
+(4, 'Captura de Alvo Criminoso', 'Rank-A'),
+(5, 'Confronto com a Akatsuki', 'Rank-S') [42102-224]
+2026-02-04 03:13:30.949136-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES 
+(1, 'Procurar Mascote Perdido', 'Rank-D'),
+(2, 'Escolta de Comboio', 'Rank-C'),
+(3, 'Investigação de Espionagem', 'Rank-B'),
+(4, 'Captura de Alvo Criminoso', 'Rank-A'),
+(5, 'Confronto com a Akatsuki', 'Rank-S') [42102-224]
+2026-02-04 03:13:31.386078-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES 
+(1, 'Procurar Mascote Perdido', 'Rank-D'),
+(2, 'Escolta de Comboio', 'Rank-C'),
+(3, 'Investigação de Espionagem', 'Rank-B'),
+(4, 'Captura de Alvo Criminoso', 'Rank-A'),
+(5, 'Confronto com a Akatsuki', 'Rank-S') [42102-224]
+2026-02-04 03:13:47.919444-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(1, 'Naruto Uzumaki', 'naruto@konoha.com', 'https://api.konoha.com/v1/img/naruto.jpg', 17, 'Genin', 5),
+(2, 'Sasuke Uchiha', 'sasuke@konoha.com', 'https://api.konoha.com/v1/img/sasuke.jpg', 17, 'Genin', 4),
+(3, 'Sakura Haruno', 'sakura@konoha.com', 'https://api.konoha.com/v1/img/sakura.jpg', 17, 'Chunin', 5),
+(4, 'Kakashi Hatake', 'kakashi@konoha.com', 'https://api.konoha.com/v1/img/kakashi.jpg', 31, 'Jonin', 5),
+(5, 'Shikamaru Nara', 'shikamaru@konoha.com', 'https://api.konoha.com/v1/img/shikamaru.jpg', 17, 'Chunin', 3),
+(6, 'Hinata Hyuga', 'hinata@konoha.com', 'https://api.konoha.com/v1/img/hinata.jpg', 17, 'Chunin', 2),
+(7, 'Rock Lee', 'rocklee@konoha.com', 'https://api.konoha.com/v1/img/rocklee.jpg', 18, 'Chunin', 1) [42102-224]
+2026-02-04 03:14:58.898028-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+--- 3. INSERINDO AS MISSÕES (ELAS PRECISAM VIR PRIMEIRO)
+INSERT INTO missoes (id, nome, dificuldade) VALUES (1, 'Resgatar o gato Tora', 'Rank-D') [42102-224]
+2026-02-04 03:14:58.899308-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (2, 'Escoltar o Sr. Tazuna', 'Rank-C') [42102-224]
+2026-02-04 03:14:58.900440-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (3, 'Infiltração na Aldeia da Chuva', 'Rank-A') [42102-224]
+2026-02-04 03:14:58.901594-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (4, 'Combater a Akatsuki', 'Rank-S') [42102-224]
+2026-02-04 03:14:58.902727-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+--- 4. INSERINDO OS NINJAS (COM O EMAIL @KONOHA.COM)
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(1, 'Naruto Uzumaki', 'naruto@konoha.com', 'https://bit.ly/img-naruto', 17, 'Genin', 4) [42102-224]
+2026-02-04 03:14:58.903756-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(2, 'Sasuke Uchiha', 'sasuke@konoha.com', 'https://bit.ly/img-sasuke', 17, 'Nukenin', 3) [42102-224]
+2026-02-04 03:14:58.904898-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(3, 'Sakura Haruno', 'sakura@konoha.com', 'https://bit.ly/img-sakura', 17, 'Chunin', 4) [42102-224]
+2026-02-04 03:14:58.906251-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(4, 'Kakashi Hatake', 'kakashi@konoha.com', 'https://bit.ly/img-kakashi', 30, 'Jonin', 3) [42102-224]
+2026-02-04 03:14:58.907562-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(5, 'Konohamaru', 'konohamaru@konoha.com', 'https://bit.ly/img-kono', 12, 'Genin', 1) [42102-224]
+2026-02-04 03:14:58.908471-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(6, 'Hinata Hyuga', 'hinata@konoha.com', 'https://bit.ly/img-hinata', 17, 'Chunin', 2) [42102-224]
+2026-02-04 03:14:58.909337-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+--- 5. COMANDO PARA VERIFICAR SE TUDO DEU CERTO
+SELECT n.NOME, n.EMAIL, n.RANK, m.NOME AS MISSAO_ATUAL, m.DIFICULDADE
+FROM ninjas n
+JOIN missoes m ON n.missao_id = m.id [42102-224]
+2026-02-04 03:15:05.820804-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+--- 3. INSERINDO AS MISSÕES (ELAS PRECISAM VIR PRIMEIRO)
+INSERT INTO missoes (id, nome, dificuldade) VALUES (1, 'Resgatar o gato Tora', 'Rank-D') [42102-224]
+2026-02-04 03:15:05.823459-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (2, 'Escoltar o Sr. Tazuna', 'Rank-C') [42102-224]
+2026-02-04 03:15:05.826662-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (3, 'Infiltração na Aldeia da Chuva', 'Rank-A') [42102-224]
+2026-02-04 03:15:05.829044-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (4, 'Combater a Akatsuki', 'Rank-S') [42102-224]
+2026-02-04 03:15:05.831743-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+--- 4. INSERINDO OS NINJAS (COM O EMAIL @KONOHA.COM)
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(1, 'Naruto Uzumaki', 'naruto@konoha.com', 'https://bit.ly/img-naruto', 17, 'Genin', 4) [42102-224]
+2026-02-04 03:15:05.833648-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(2, 'Sasuke Uchiha', 'sasuke@konoha.com', 'https://bit.ly/img-sasuke', 17, 'Nukenin', 3) [42102-224]
+2026-02-04 03:15:05.835325-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(3, 'Sakura Haruno', 'sakura@konoha.com', 'https://bit.ly/img-sakura', 17, 'Chunin', 4) [42102-224]
+2026-02-04 03:15:05.836646-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(4, 'Kakashi Hatake', 'kakashi@konoha.com', 'https://bit.ly/img-kakashi', 30, 'Jonin', 3) [42102-224]
+2026-02-04 03:15:05.838122-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(5, 'Konohamaru', 'konohamaru@konoha.com', 'https://bit.ly/img-kono', 12, 'Genin', 1) [42102-224]
+2026-02-04 03:15:05.839171-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(6, 'Hinata Hyuga', 'hinata@konoha.com', 'https://bit.ly/img-hinata', 17, 'Chunin', 2) [42102-224]
+2026-02-04 03:15:05.840418-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+--- 5. COMANDO PARA VERIFICAR SE TUDO DEU CERTO
+SELECT n.NOME, n.EMAIL, n.RANK, m.NOME AS MISSAO_ATUAL, m.DIFICULDADE
+FROM ninjas n
+JOIN missoes m ON n.missao_id = m.id [42102-224]
+2026-02-04 03:15:07.202433-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+--- 3. INSERINDO AS MISSÕES (ELAS PRECISAM VIR PRIMEIRO)
+INSERT INTO missoes (id, nome, dificuldade) VALUES (1, 'Resgatar o gato Tora', 'Rank-D') [42102-224]
+2026-02-04 03:15:07.204808-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (2, 'Escoltar o Sr. Tazuna', 'Rank-C') [42102-224]
+2026-02-04 03:15:07.206585-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (3, 'Infiltração na Aldeia da Chuva', 'Rank-A') [42102-224]
+2026-02-04 03:15:07.208344-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (4, 'Combater a Akatsuki', 'Rank-S') [42102-224]
+2026-02-04 03:15:07.210080-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+--- 4. INSERINDO OS NINJAS (COM O EMAIL @KONOHA.COM)
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(1, 'Naruto Uzumaki', 'naruto@konoha.com', 'https://bit.ly/img-naruto', 17, 'Genin', 4) [42102-224]
+2026-02-04 03:15:07.211530-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(2, 'Sasuke Uchiha', 'sasuke@konoha.com', 'https://bit.ly/img-sasuke', 17, 'Nukenin', 3) [42102-224]
+2026-02-04 03:15:07.213201-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(3, 'Sakura Haruno', 'sakura@konoha.com', 'https://bit.ly/img-sakura', 17, 'Chunin', 4) [42102-224]
+2026-02-04 03:15:07.214607-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(4, 'Kakashi Hatake', 'kakashi@konoha.com', 'https://bit.ly/img-kakashi', 30, 'Jonin', 3) [42102-224]
+2026-02-04 03:15:07.215407-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(5, 'Konohamaru', 'konohamaru@konoha.com', 'https://bit.ly/img-kono', 12, 'Genin', 1) [42102-224]
+2026-02-04 03:15:07.216159-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(6, 'Hinata Hyuga', 'hinata@konoha.com', 'https://bit.ly/img-hinata', 17, 'Chunin', 2) [42102-224]
+2026-02-04 03:15:07.216824-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+--- 5. COMANDO PARA VERIFICAR SE TUDO DEU CERTO
+SELECT n.NOME, n.EMAIL, n.RANK, m.NOME AS MISSAO_ATUAL, m.DIFICULDADE
+FROM ninjas n
+JOIN missoes m ON n.missao_id = m.id [42102-224]
+2026-02-04 03:15:08.125129-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+--- 5. COMANDO PARA VERIFICAR SE TUDO DEU CERTO
+SELECT n.NOME, n.EMAIL, n.RANK, m.NOME AS MISSAO_ATUAL, m.DIFICULDADE
+FROM ninjas n
+JOIN missoes m ON n.missao_id = m.id [42102-224]
+2026-02-04 03:15:11.026243-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+--- 3. INSERINDO AS MISSÕES (ELAS PRECISAM VIR PRIMEIRO)
+INSERT INTO missoes (id, nome, dificuldade) VALUES (1, 'Resgatar o gato Tora', 'Rank-D') [42102-224]
+2026-02-04 03:15:11.028614-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (2, 'Escoltar o Sr. Tazuna', 'Rank-C') [42102-224]
+2026-02-04 03:15:11.031269-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (3, 'Infiltração na Aldeia da Chuva', 'Rank-A') [42102-224]
+2026-02-04 03:15:11.033870-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" not found; SQL statement:
+INSERT INTO missoes (id, nome, dificuldade) VALUES (4, 'Combater a Akatsuki', 'Rank-S') [42102-224]
+2026-02-04 03:15:11.036482-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+--- 4. INSERINDO OS NINJAS (COM O EMAIL @KONOHA.COM)
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(1, 'Naruto Uzumaki', 'naruto@konoha.com', 'https://bit.ly/img-naruto', 17, 'Genin', 4) [42102-224]
+2026-02-04 03:15:11.039448-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(2, 'Sasuke Uchiha', 'sasuke@konoha.com', 'https://bit.ly/img-sasuke', 17, 'Nukenin', 3) [42102-224]
+2026-02-04 03:15:11.041929-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(3, 'Sakura Haruno', 'sakura@konoha.com', 'https://bit.ly/img-sakura', 17, 'Chunin', 4) [42102-224]
+2026-02-04 03:15:11.043441-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(4, 'Kakashi Hatake', 'kakashi@konoha.com', 'https://bit.ly/img-kakashi', 30, 'Jonin', 3) [42102-224]
+2026-02-04 03:15:11.045365-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(5, 'Konohamaru', 'konohamaru@konoha.com', 'https://bit.ly/img-kono', 12, 'Genin', 1) [42102-224]
+2026-02-04 03:15:11.047138-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+INSERT INTO ninjas (id, nome, email, img_url, idade, rank, missao_id) VALUES 
+(6, 'Hinata Hyuga', 'hinata@konoha.com', 'https://bit.ly/img-hinata', 17, 'Chunin', 2) [42102-224]
+2026-02-04 03:15:11.048625-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" not found; SQL statement:
+--- 5. COMANDO PARA VERIFICAR SE TUDO DEU CERTO
+SELECT n.NOME, n.EMAIL, n.RANK, m.NOME AS MISSAO_ATUAL, m.DIFICULDADE
+FROM ninjas n
+JOIN missoes m ON n.missao_id = m.id [42102-224]
+2026-02-04 03:15:41.356440-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" already exists; SQL statement:
+CREATE TABLE missoes (id INT PRIMARY KEY, nome VARCHAR(255), dificuldade VARCHAR(50)) [42101-224]
+2026-02-04 03:15:41.358037-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" already exists; SQL statement:
+CREATE TABLE ninjas (id INT PRIMARY KEY, nome VARCHAR(255), email VARCHAR(255), img_url VARCHAR(500), idade INT, rank VARCHAR(50), missao_id INT, FOREIGN KEY (missao_id) REFERENCES missoes(id)) [42101-224]
+2026-02-04 03:15:49.738936-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MISSOES" already exists; SQL statement:
+CREATE TABLE missoes (id INT PRIMARY KEY, nome VARCHAR(255), dificuldade VARCHAR(50)) [42101-224]
+2026-02-04 03:15:49.740387-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "NINJAS" already exists; SQL statement:
+CREATE TABLE ninjas (id INT PRIMARY KEY, nome VARCHAR(255), email VARCHAR(255), img_url VARCHAR(500), idade INT, rank VARCHAR(50), missao_id INT, FOREIGN KEY (missao_id) REFERENCES missoes(id)) [42101-224]
+2026-02-04 03:17:08.526011-03:00 database: wrong user or password; user: "CADASTRO_DB"
+org.h2.message.DbException: Wrong user name or password [28000-224]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.engine.Engine.openSession(Engine.java:154)
+	at org.h2.engine.Engine.openSession(Engine.java:222)
+	at org.h2.engine.Engine.createSession(Engine.java:201)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:343)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:125)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:811)
+	at org.h2.server.web.WebApp.test(WebApp.java:978)
+	at org.h2.server.web.WebApp.process(WebApp.java:242)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:177)
+	at org.h2.server.web.JakartaWebServlet.doGet(JakartaWebServlet.java:129)
+	at org.h2.server.web.JakartaWebServlet.doPost(JakartaWebServlet.java:166)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-224]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:522)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	... 50 more

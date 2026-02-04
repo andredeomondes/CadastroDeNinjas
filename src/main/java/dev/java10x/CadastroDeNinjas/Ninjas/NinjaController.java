@@ -2,10 +2,19 @@ package dev.java10x.CadastroDeNinjas.Ninjas;
 
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController // indica que esta classe é um controlador REST
 @RequestMapping("/ninjas") // mapeia a raiz das requisições
 public class NinjaController {
 
+    // Injeção de dependência do serviço
+    private final NinjaService ninjaService;
+
+    // Injeção de dependência via construtor
+    public NinjaController(NinjaService ninjaService) {
+        this.ninjaService = ninjaService;
+    }
 
     // ENDPOINTS CRUD PARA NINJAS
     // O que é um CRUD?
@@ -26,10 +35,9 @@ public class NinjaController {
 
     // Listar todos os NINJAS (READ)
     @GetMapping("/listar")
-    public String listarNinjas() {
-        return "Lista de todos os ninjas.";
+    public List<NinjaModel> listarNinjas() {
+        return ninjaService.listarNinjas();
     }
-
     // Procurar NINJA por ID (CREATE)
     @GetMapping("/listarID")
 
