@@ -9,11 +9,10 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 @Entity
-// Table define o nome da tabela no banco de dados
 @Table(name = "tb_cadastro")
 @Data
-@NoArgsConstructor // Cria um construtor sem argumentos
-@AllArgsConstructor // Cria um construtor com todos os argumentos
+@NoArgsConstructor
+@AllArgsConstructor
 public class NinjaModel {
 
     @Id
@@ -27,18 +26,18 @@ public class NinjaModel {
     @Column(unique = true, name = "email")
     private String email;
 
-    @Column(name="img_url")
+    @Column(name = "img_url")
     private String imgUrl;
 
     @Column(name = "idade")
     private int idade;
 
-    // @ManyToOne indica que um ninja tem uma unica missao
+    @Column(name = "rank")
+    private String rank;
+
     @ManyToOne
-    @JoinColumn(name = "missao_id") // Foreing key - define a coluna que vai fazer o relacionamento
+    @JoinColumn(name = "missao_id")
     private MissoesModel missao;
 
 
 }
-// JPA = Java Persistence API
-// Entity ele transforma uma classe em uma entidade do banco de dados
