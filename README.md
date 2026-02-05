@@ -1,143 +1,179 @@
 # CadastroDeNinjas
-Projeto simples para gerenciar o cadastro de ninjas, incluindo funcionalidades para criar, ler, atualizar e deletar registros de ninjas.
+
+Projeto simples para gerenciar o cadastro de ninjas, incluindo funcionalidades de **CRUD** (Criar, Ler, Atualizar e Deletar).
 
 ---
 
 ## Estudos
 
----
+Este projeto foi desenvolvido com foco em:
 
-## Commits convencionais
-
-Os commits convencionais são uma convenção para escrever mensagens de commit de forma padronizada e estruturada. Eles ajudam a manter um histórico de mudanças claro e compreensível, facilitando a colaboração entre desenvolvedores e a automação de processos, como geração de changelogs e versionamento semântico.
-
-### Estrutura dos Commits Convencionais
-A estrutura básica de um commit convencional é a seguinte:
-
-feat: Adiciona uma nova funcionalidade ao projeto.
-fix: Corrige um bug existente no código.
-docs: Atualiza a documentação do projeto.
-style: Modifica o estilo do código (formatação, espaços em branco, etc.) sem
-alterar a funcionalidade.
-refactor: Refatora o código sem adicionar novas funcionalidades ou corrigir bugs.
-test: Adiciona ou modifica testes no projeto.
-chore: Realiza tarefas de manutenção no projeto, como atualizações de dependências.
+- Organização de projetos Java com Spring Boot
+- Boas práticas de versionamento com Git
+- Uso de banco de dados em memória
+- Arquitetura de software em camadas
+- Padrões de commits convencionais
 
 ---
 
+## Git
 
-## Tecnologias Utilizadas:
-pom.xml: Arquivo de configuração do Maven que gerencia as dependências e o build do projeto Java.
+### Navegação no Terminal
+- cd: Navega entre pastas
+- mkdir NOME_DA_PASTA: Cria uma nova pasta
+- pwd: Exibe o caminho da pasta atual
+- clear: Limpa o terminal
 
-h2 database: Banco de dados em memória usado para desenvolvimento e testes.
+### Versionamento
+- git init: Inicializa um repositório Git
+- git add .: Adiciona todos os arquivos ao staging
+- git commit -m "feat: Initial commit - Configuração do projeto e estrutura básica criada.": Cria um commit
+- git branch -M main: Renomeia a branch atual para main
+- git remote add origin URL_DO_REPOSITORIO: Adiciona repositório remoto
+- git push origin main: Envia commits para o repositório remoto
+- git push origin NOME_DA_BRANCH: Envia commits de uma branch específica
+- git pull origin main: Atualiza o repositório local
+- git clone URL_DO_REPOSITORIO: Clona um repositório remoto
 
-jpa: Java Persistence API, uma especificação para gerenciamento de dados relacionais em aplicações Java.
-
-spring boot: Framework para desenvolvimento de aplicações Java, facilitando a criação de aplicações web e serviços
-RESTful.
-
-lombok: Biblioteca que reduz o boilerplate code em Java, gerando automaticamente getters,
-setters, construtores e outros métodos comuns.
-
----
-
-## Relações entre Entidades:
-
-OneToMany: Representa uma relação onde uma entidade está associada a muitas outras entidades. Exemplo: Um ninja pode ter muitas missões.
-
-ManyToOne: Representa uma relação onde muitas entidades estão associadas a uma única entidade. Exemplo: Muitas missões podem ser atribuídas a um único ninja.
-
-ManyToMany: Representa uma relação onde muitas entidades estão associadas a muitas outras entidades.
-
-Exemplo: Muitos ninjas podem participar de muitas missões.
-
+### Branches
+- git branch: Lista branches locais
+- git branch -b NOME_DA_BRANCH: Cria e muda para uma nova branch
+- git checkout NOME_DA_BRANCH: Muda de branch
+- git merge NOME_DA_BRANCH: Mescla uma branch na atual
 
 ---
 
-## Anottations:
+## Commits Convencionais
 
-@Entity: Indica que a classe é uma entidade JPA e será mapeada para uma
-tabela no banco de dados.
+Commits convencionais seguem um padrão para manter o histórico de alterações claro, organizado e automatizável.
 
-@Id: Marca o campo como a chave primária da entidade.
+### Estrutura
+- feat: Nova funcionalidade
+- fix: Correção de bug
+- docs: Alterações na documentação
+- style: Ajustes de formatação (sem alterar lógica)
+- refactor: Refatoração de código
+- test: Criação ou alteração de testes
+- chore: Tarefas de manutenção
 
-@GeneratedValue: Especifica que o valor da chave primária será gerado automaticamente.
+### Exemplos
+- feat: cadastro de ninjas implementado
+- fix: correção na validação de campos
+- docs: atualização do README
 
-@RestController: Indica que a classe é um controlador REST, capaz de lidar com requisições HTTP.
+---
 
-@RequestMapping: Define o mapeamento de URLs para os métodos do controlador.
+## Tecnologias Utilizadas
 
-@Autowired: Injeta automaticamente as dependências necessárias na classe.
+- Spring Boot  
+  Framework para criação de aplicações Java e APIs REST
 
-@Service: Indica que a classe é um serviço, responsável pela lógica de negócios.
+- Maven (pom.xml)  
+  Gerenciamento de dependências e build do projeto
 
-@Repository: Indica que a classe é um repositório, responsável pela interação com o banco de dados.
+- H2 Database  
+  Banco de dados em memória para desenvolvimento e testes
 
-@Data: Anotação do Lombok que gera automaticamente getters, setters, toString, equals e hashCode para a classe.
+- JPA (Java Persistence API)  
+  Persistência de dados relacionais
 
-@NoArgsConstructor: Anotação do Lombok que gera um construtor sem argumentos para a classe.
+- Lombok  
+  Redução de código boilerplate (getters, setters, construtores etc.)
 
-@AllArgsConstructor: Anotação do Lombok que gera um construtor com todos os argumentos para a classe.
+---
 
+## Relações entre Entidades
+
+- OneToMany  
+  Uma entidade relacionada a várias outras  
+  Exemplo: um ninja pode ter várias missões
+
+- ManyToOne  
+  Muitas entidades relacionadas a uma única  
+  Exemplo: várias missões pertencem a um ninja
+
+- ManyToMany  
+  Muitas entidades relacionadas entre si  
+  Exemplo: vários ninjas participam de várias missões
+
+---
+
+## Anotações (Annotations)
+
+### JPA
+- @Entity: Define uma entidade do banco
+- @Id: Define a chave primária
+- @GeneratedValue: Geração automática do ID
+
+### Spring
+- @RestController: Controlador REST
+- @RequestMapping: Mapeamento de rotas
+- @Autowired: Injeção de dependência
+- @Service: Camada de serviço
+- @Repository: Camada de acesso a dados
+
+### Lombok
+- @Data: Getters, setters, equals, hashCode e toString
+- @NoArgsConstructor: Construtor sem argumentos
+- @AllArgsConstructor: Construtor com todos os atributos
+
+---
 
 ## Arquitetura de Software
 
-
-### O que é?
-Arquitetura de Software refere-se à estrutura organizacional fundamental de um sistema de software, incluindo seus componentes, suas relações e os princípios e diretrizes que governam seu design e evolução ao longo do tempo. Ela serve como um plano para o desenvolvimento do software, ajudando a garantir que o sistema atenda aos requisitos funcionais e não funcionais, como desempenho, escalabilidade, segurança e manutenibilidade.
+### O que é
+Arquitetura de software define a estrutura do sistema, seus componentes, suas responsabilidades e como eles se comunicam ao longo do tempo.
 
 ---
 
 ### Importância
 
-A arquitetura de software é crucial porque: 
+- Facilita a comunicação entre desenvolvedores
+- Garante requisitos funcionais e não funcionais
+- Torna o sistema mais manutenível e escalável
 
-1. Fornece uma visão geral do sistema, facilitando a comunicação entre os membros da equipe de desenvolvimento.
-2. Ajuda a garantir que o sistema atenda aos requisitos funcionais e não funcionais
-3. Facilita a manutenção e evolução do sistema ao longo do tempo.
-
-Exemplo: pastas e arquivos organizados de forma lógica facilitam a navegação e manutenção do projeto.
+Exemplo: organização clara de pastas e responsabilidades.
 
 ---
 
 ### Componentes Comuns
 
-Controllers: Responsáveis por gerenciar a lógica de negócios e interagir com os modelos e as views.
+- Controllers  
+  Responsáveis por lidar com requisições HTTP
 
-Models: Representam os dados e a lógica de negócios do aplicativo.
+- Models (Entidades)  
+  Representam os dados e regras do domínio
 
-Views: Responsáveis pela apresentação dos dados ao usuário. Define a estrutura do sistema, facilitando a comunicação entre os membros da equipe de desenvolvimento.
+- Services  
+  Contêm a lógica de negócio
 
-Services: Componentes que encapsulam a lógica de negócios específica e podem ser reutilizados em diferentes partes do aplicativo.
-Facilita a comunicação entre os membros da equipe de desenvolvimento.
+- Repositories  
+  Comunicação com o banco de dados
 
-Repositories: Camada responsável pela interação com o banco de dados, abstraindo as operações de persistência de dados.
-Ajuda a garantir que o sistema atenda aos requisitos funcionais e não funcionais, como
+- DTOs (Data Transfer Objects)  
+  Transferência de dados entre camadas
 
-DTOs (Data Transfer Objects): Objetos usados para transferir dados entre diferentes camadas do aplicativo, especialmente entre o cliente e o servidor.
-Facilita a manutenção e evolução do sistema ao longo do tempo.
+- Mappers  
+  Convertem entidades em DTOs e vice-versa
 
-Mapper: Componentes que convertem dados entre diferentes formatos ou estruturas, como entre entidades de banco de dados e DTOs.
-
-
-Exemplo: 
-NinjaService: Um serviço que gerencia todas as operações relacionadas aos ninjas, como criação, atualização e exclusão.
-NinjaController: Um controlador que lida com as requisições HTTP relacionadas aos ninjas, utilizando o NinjaService para processar os dados.
-NinjaRepository: Um repositório que interage com o banco de dados para armazenar e recuperar informações sobre os ninjas.
-NinjaDTO: Um objeto de transferência de dados que encapsula as informações dos ninjas para serem enviadas entre o cliente e o servidor.
-NinjaMapper: Um componente que converte entre entidades de banco de dados e NinjaDTOs.
-
----
-
-### Padrões Comuns
-
-MVC (Model-View-Controller): Separa a aplicação em três componentes principais, facilitando
-a manutenção e a escalabilidade.
-
-Microservices: Arquitetura que divide a aplicação em serviços pequenos e independentes, cada um responsável por uma funcionalidade específica.
-
-Monolítica: Uma única aplicação onde todos os componentes estão interligados, mais simples de
-desenvolver inicialmente, mas pode ser difícil de escalar e manter com o tempo.
+### Exemplo Prático
+- NinjaController: recebe requisições HTTP
+- NinjaService: processa regras de negócio
+- NinjaRepository: acessa o banco de dados
+- NinjaDTO: transporta dados
+- NinjaMapper: converte dados
 
 ---
 
+## Padrões Arquiteturais
+
+- MVC (Model-View-Controller)  
+  Separação clara de responsabilidades
+
+- Monolítica  
+  Aplicação única, simples de iniciar
+
+- Microservices  
+  Serviços independentes e escaláveis
+
+---
